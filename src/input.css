@@ -14,12 +14,22 @@
     );
     opacity: 0.1;
   }
-  .bg-2{
+  .bg-2 {
     border-radius: 10px;
-background: rgba(230, 166, 35, 0.1);
+    background: rgba(230, 166, 35, 0.1);
   }
-  .bg-3{
+  .bg-3 {
     border-radius: 10px;
     background: rgba(87, 118, 57, 0.1);
   }
+  .bg-meet {
+    border-radius: 10px;
+
+    background: linear-gradient(
+      270deg,
+      rgb(255, 0, 0) 0%,
+      rgb(255, 137, 56) 100%
+    );
+  }
+  
 }
